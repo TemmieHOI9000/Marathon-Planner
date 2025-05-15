@@ -17,3 +17,11 @@ Current calendar with overlays for training and training times (monthly, weekly,
 
 
 **For simplicity's sake, each week will be consistent with training, and there will only be 4 types of days: long runs (1), recovery runs (2), speed training (1), and rest days (2)*
+
+# Webapp Stack
+| Component          | Role                  | Example Tech           |
+| ------------------ | --------------------- | ---------------------- |
+| Frontend (browser) | UI & user input       | React                  |
+| Backend (server)   | Logic, API, DB access | Node.js                |
+| Database           | Data storage          | PostgreSQL             |
+| External API       | Calendar sync, etc.   | Google Calendar API    |
