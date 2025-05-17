@@ -17,8 +17,8 @@ function App() {
 
   return (
     <ul>
-      {workout_types.map((instrument) => (
-        <li key={instrument.name}>{instrument.name}</li>
+      {workout_types.map((workout) => (
+        <li key={workout.name}>{workout.name}</li>
       ))}
     </ul>
   );
